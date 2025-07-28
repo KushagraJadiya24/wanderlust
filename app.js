@@ -82,15 +82,17 @@ app.use((req, res, next) => {
   res.locals.currUser = req.user;
   next();
 });
-
-app.get('/registerUser' ,async (req,res) => {
-  let fakeUser = new User({
-    email:"student@gmail.com",
-    username:"kushagra"
-  });
-  let newUser =  await User.register(fakeUser,"password");
-  res.send(newUser);
+app.get('/',(req,res)=>{
+  res.redirect("/listings");
 })
+// app.get('/registerUser' ,async (req,res) => {
+//   let fakeUser = new User({
+//     email:"student@gmail.com",
+//     username:"kushagra"
+//   });
+//   let newUser =  await User.register(fakeUser,"password");
+//   res.send(newUser);
+// })
 
 app.use('/listings',listingRouter);
 app.use('/listings/:id/reviews',reviewRouter);
