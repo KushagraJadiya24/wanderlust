@@ -109,6 +109,7 @@ app.use((err,req,res,next)=>{
   let {statusCode=500,message="Something went wrong"}=err;
   res.status(statusCode).send(message);
 });
-app.listen(4000, () => {
+const port = process.env.PORT || 4000;
+app.listen(port, () => {
   console.log("server is listening to port 4000");
 });
