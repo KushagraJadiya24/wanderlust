@@ -5,7 +5,7 @@ Travelo is a full-stack travel-themed web application that allows users to explo
 
 ## 🔗 Live Demo
 
-**[Check it out here]((https://tinyurl.com/yvbemvs2))**  
+**[Check it out here](https://tinyurl.com/yvbemvs2)**  
 
 ---
 
