@@ -1,11 +1,11 @@
 
-# 🌍 Wanderlust
+# 🌍 Travelo
 
-Wanderlust is a full-stack travel-themed web application that allows users to explore, review, and manage campgrounds across the world. Built as part of the **Apna College MERN Bootcamp** with guidance from **Shraddha Khapra**, this project showcases RESTful architecture, authentication, cloud-based image upload, and responsive design.
+Travelo is a full-stack travel-themed web application that allows users to explore, review, and manage campgrounds across the world. Built as part of the **Apna College MERN Bootcamp** with guidance from **Shraddha Khapra**, this project showcases RESTful architecture, authentication, cloud-based image upload, and responsive design.
 
 ## 🔗 Live Demo
 
-**[Check it out here](https://wanderlust-orcj.onrender.com/listings)**  
+**[Check it out here]((https://tinyurl.com/yvbemvs2))**  
 
 ---
 
